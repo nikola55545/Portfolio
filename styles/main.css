@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Fira Code', monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0C1017;
+}
+
+html {
+    height: 100%;
+}
+
+.name {
+    padding-bottom: 20px;
+    box-shadow: 0px 5px 5px #0a0d13;
+}
+
+.name p {
+    color: #484C51;
+    text-align: center;
+    margin: 7px 0px;
+}
+
+nav {
+    background-color: #010409;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    display: flex;
+    border-top: 0.1px solid #262B37;
+    border-bottom: 0.1px solid #262B37;
+}
+
+nav ul li {
+    padding: 10px;
+    width: 170px;
+    text-align: center;
+    border-right: 0.1px solid #262B37;
+}
+
+nav ul a {
+    color: #7D848E;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    color: white;
+    background-color: #262B37;
+}
+
+.active {
+    color: #C79C47;
+    background-color: #0C1017;
+    border-top: 2px solid #7F454C;
+    border-bottom: none;
+    box-shadow: 0px 5px #0C1017;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 0.1px solid #262B37;
+    border-bottom: 0.1px solid #262B37;
+    color: #484C51;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    display: flex;
+}
+
+footer ul li {
+    padding: 10px;
+    text-align: center;
+    border-right: 0.1px solid #262B37;
+}
+
+footer a {
+    text-decoration: none;
+    color: #484C51;
+}
+
+footer a:hover {
+    color: white;
+    background-color: #262B37;
+}
+
+.footer-icon {
+    padding: 10px 15px;
+}
+
+.footer-right {
+    padding: 10px 15px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+}
+
+.main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.main h3{
+    color: #354869;
+}
+.main button{
+    border: solid thin white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 5px 15px;
+    font-size: 110%;
+    transition: all .5s;
+}
+.main button:hover{
+    background-color: #354869;
+    color: white;
+}
+.inline{
+    display: flex;
+}
