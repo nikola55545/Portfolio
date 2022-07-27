@@ -124,14 +124,45 @@ footer a:hover {
     background-color: transparent;
     color: white;
     cursor: pointer;
-    padding: 5px 15px;
+    padding: 7px 17px;
     font-size: 110%;
-    transition: all .5s;
+    transition: all .2s;
 }
 .main button:hover{
-    background-color: #354869;
-    color: white;
+    background-color: white;
+    color: #354869;
 }
 .inline{
     display: flex;
+}
+#project_1{
+    width: auto;
+    margin: 10px;
+}
+#project_1 #image{
+    display: block;
+    transition: all .2s;
+}
+#project_1 #content{
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: all .2s;
+}
+#project_1 a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+#project_1:hover #content{
+    opacity: 1;
+}
+#project_1:hover #image{
+    opacity: 0.5;
 }
